@@ -12,7 +12,7 @@ import java.util.function.Consumer;
 public class ConsumerExample {
     public static void main(String[] args) {
         // Criar uma lista de números inteiros
-        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 8);
 
         // Usar o Consumer com expressão lambda para imprimir números pares
         Consumer<Integer> imprimirNumeroPar = numero -> {
